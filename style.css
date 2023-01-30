@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: #efd8ba;
+    
+    /* background-color: #f8f6f3c2; */
+    /* background-image: url('mpbg.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    /* background-color: rgb(135, 41, 41);
+    background-image: url('angryimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;  */
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+    
+}
+
+.brand img{
+    width: 48px;
+    padding: 0 8px;
+    padding-left: 35px;
+    padding-right: 30px;
+    
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 2rem;
+    padding-right:70% ;
+}
+.hm li {
+    float:right;
+    position:relative;
+    display:flex;
+    font-weight:bolder;
+    font-size: 1.3rem;
+    /* align-items:center; */
+    
+}
+
+.col{
+    /* background-image: url('topbk.png'); */
+    min-height: 100vh;
+    background-image: url('ibg 3.png');
+    background-repeat: no-repeat; 
+     background-size: cover; 
+     /* background-color: aqua; */
+}
+
+/* .plist {
+    margin: 50px 50px 50px 50px;
+   
+    display: flex;
+    
+}
+.pimg{
+ 
+   margin: 50px 220px 290px 50px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 30%;
+    /* padding-right: 40%; 
+   
+} */
+#Home{
+   
+   
+    display:flex;
+    
+    font-weight: 400;
+    
+    }
+    
+    #Home h3{
+    text-align:right;
+    direction:ltr;
+    /* justify-text:justify-left;
+    image-size:500px; */
+    display:flex;
+    }
+    
+    
+    .founder{
+      /* 25px solid rgb(43, 41, 43) */
+      
+      margin :30px;
+      margin-top: 10px;
+      padding :20px;
+      padding-top: 10px;
+    }
+     .foimg
+    {
+        
+    
+        padding :5%;
+        padding-top: 10px;
+    
+    }
+    .principal
+    {
+     
+      margin :30px;
+      margin-top: 2px;
+      padding :20px;
+      padding-top: 2px;
+     
+    }
+    .primg
+    {
+        
+      padding :5%;
+      padding-top: 10px;
+      
+    }
+    
+.container{
+    min-height: 72vh;
+    background-color: rgba(182, 34, 34, 0.718);
+    color: rgb(242, 215, 215);
+    
+    /* background-image: url('sgbk.png'); */
+    /* background-size: cover; */
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 80%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bk3.png');
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.bottom{
+   /* position: sticky;*/
+    bottom: 0;
+    height: 90px;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(135, 41, 41);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-image: url('angryimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icons{
+    margin-top: 12px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 70vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(187, 170, 170);
+    
+    color: rgb(0, 0, 0);
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(228, 230, 196);
+    }
+  }
